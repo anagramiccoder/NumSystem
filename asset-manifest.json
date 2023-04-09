@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/NumSystem/static/css/main.85926ab7.css",
+    "main.js": "/NumSystem/static/js/main.d6af442f.js",
+    "static/js/787.52558658.chunk.js": "/NumSystem/static/js/787.52558658.chunk.js",
+    "static/media/4562472.jpg": "/NumSystem/static/media/4562472.5633df1b997cce033d11.jpg",
+    "index.html": "/NumSystem/index.html",
+    "main.85926ab7.css.map": "/NumSystem/static/css/main.85926ab7.css.map",
+    "main.d6af442f.js.map": "/NumSystem/static/js/main.d6af442f.js.map",
+    "787.52558658.chunk.js.map": "/NumSystem/static/js/787.52558658.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85926ab7.css",
+    "static/js/main.d6af442f.js"
+  ]
+}
