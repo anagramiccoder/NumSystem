@@ -9,6 +9,7 @@
 html{
   background-color: var(--moon);
   color: var(--Cloud);
+  overflow-x: hidden;
 } 
 .section{
   width: 80vw;
@@ -20,12 +21,13 @@ html{
   align-self: center;
   margin: 5vh auto auto auto;
   color: var(--Cloud);
-
+  overflow-x: hidden;
 }
 body{
   background-image: url("../public/4562472.jpg");
   background-size: contain;
   color: var(--Cloud);
+  overflow-x: hidden;
 }
 .section div{
   flex:20%;
@@ -70,4 +72,9 @@ table, td,th{
 .tables td,.tables th{
   min-width: 4vw;
   color: var(--Cloud);
+}
+.footer{
+  color: var(--Cloud);
+  background-color: var(--Storm);
+  padding: 1vw;
 }

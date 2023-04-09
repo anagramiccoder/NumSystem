@@ -128,6 +128,7 @@ function App() {
         <tr><th>Decimal</th><td><input id='dec'pattern='[0-9]*' onChange={convDec}/></td></tr>
         <tr><th>Hexadecimal</th><td><input id='hex' pattern='[0-9a-eA-e]*' onChange={convHex}/></td></tr>
       </table></center><br/>
+      <center><div className='footer'>Made by Joanna Vidad, with the help of her Brother</div></center>
     </div>
     
     </>
