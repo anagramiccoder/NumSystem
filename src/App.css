@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+#root{
+  --Storm: #222c3c ; 
+  --Moon: #989da6 ; 
+  --Leather: #93634a ; 
+  --Nude: #ae9789 ;
+  --Cloud: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+html{
+  background-color: var(--moon);
+  color: var(--Cloud);
+} 
+.section{
+  width: 80vw;
+  padding:0 10vw 0 10vw;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  flex-wrap: wrap;
+  align-self: center;
+  margin: 5vh auto auto auto;
+  color: var(--Cloud);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+body{
+  background-image: url("../public/4562472.jpg");
+  background-size: contain;
+  color: var(--Cloud);
+}
+.section div{
+  flex:20%;
+}
+.section p{
+  flex:50%;
+}
+@media(max-width:700px){
+  .section div, .section p{
+    flex:100%;
+    align-items: center;
+  }
+  .section{
+    justify-content: center;
+  }
+  .rev div{
+    order: 1;
+  }
+  .rev p{
+    order: 2;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+h1{
+  font-size:xx-large;
+  color: var(--Cloud);
+}
+.tables table{
+  margin-top: 4vh;
+  color: var(--Cloud);
+  
+}
+table, td,th{
+  color: var(--Cloud);
+}
+.tables table,.tables td,.tables th{
+  border:2px solid var(--Cloud);
+  border-collapse: collapse;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--Cloud);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tables td,.tables th{
+  min-width: 4vw;
+  color: var(--Cloud);
 }
